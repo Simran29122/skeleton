@@ -13,7 +13,7 @@ public class Main
 	{
 		String DB_REL_FILE = "/Users/iphoneloki/Documents/GitHubEx/skeleton/indirizzi.db3";
 		
-		String DB_URL = "jdbc:sqlite:/Users/iphoneloki/Documents/GitHubEx/skeleton/indirizzi.db3" + DB_REL_FILE;
+		String DB_URL = "jdbc:sqlite:" + DB_REL_FILE;
 		
 		try 
 		{			
